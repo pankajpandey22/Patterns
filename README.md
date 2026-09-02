@@ -60,6 +60,7 @@ Visual gallery of all 15 pattern outputs. Click any title to navigate directly t
 
 ```
 ## Pattern 04: [Repeating Number Triangle](Pattern04.java)
+```
 1
 2 2
 3 3 3
@@ -67,6 +68,7 @@ Visual gallery of all 15 pattern outputs. Click any title to navigate directly t
 
 ```
 ## Pattern 05: [Inverted Right-Angled Triangle](Pattern01.java)
+```
 ****
 ***
 **
