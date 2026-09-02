@@ -34,10 +34,7 @@ In computer science, **Pattern Printing** is the practice of arranging numbers, 
 
 Visual gallery of all 15 pattern outputs. Click any title to navigate directly to its Java source file.
 
----
-
 ## Pattern 01: Square Pattern
-```text
 ****
 ****
 ****
