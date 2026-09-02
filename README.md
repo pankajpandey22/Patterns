@@ -47,43 +47,43 @@ Visual gallery of all 15 pattern outputs. Click any title to navigate directly t
 ***
 ****
 
-Pattern 03: Number Triangle
+## Pattern 03: Number Triangle
 1
 1 2
 1 2 3
 1 2 3 4
 
-Pattern 04: Repeating Number Triangle
+## Pattern 04: Repeating Number Triangle
 1
 2 2
 3 3 3
 4 4 4 4
 
-Pattern 05: Inverted Right-Angled Triangle
+## Pattern 05: Inverted Right-Angled Triangle
 ****
 ***
 **
 *
 
-Pattern 06: Inverted Number Triangle
+## Pattern 06: Inverted Number Triangle
 1 2 3 4
 1 2 3
 1 2
 1
 
-Pattern 07: Pyramid
+## Pattern 07: Pyramid
    *
   ***
  *****
 *******
 
-Pattern 08: Inverted Pyramid
+## Pattern 08: Inverted Pyramid
 *******
  *****
   ***
    *
 
-Pattern 09: Diamond
+## Pattern 09: Diamond
    *
   ***
  *****
@@ -93,7 +93,7 @@ Pattern 09: Diamond
   ***
    *
 
-Pattern 10: Half Diamond
+## Pattern 10: Half Diamond
 *
 **
 ***
@@ -102,25 +102,25 @@ Pattern 10: Half Diamond
 **
 *
 
-Pattern 11: Binary Triangle
+## Pattern 11: Binary Triangle
 1
 0 1
 1 0 1
 0 1 0 1
 
-Pattern 12: Number Crown
+## Pattern 12: Number Crown
 1      1
 12    21
 123  321
 12344321
 
-Pattern 13: Floyd's Triangle
+## Pattern 13: Floyd's Triangle
 1
 2 3
 4 5 6
 7 8 9 10
 
-Pattern 14: Hollow Diamond
+## Pattern 14: Hollow Diamond
    *
   * *
  *   *
@@ -129,7 +129,7 @@ Pattern 14: Hollow Diamond
   * *
    *
 
-Pattern 15: Butterfly Pattern
+## Pattern 15: Butterfly Pattern
 *      *
 **    **
 ***  ***
