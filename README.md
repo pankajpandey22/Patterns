@@ -137,9 +137,8 @@ Pattern 15: Butterfly Pattern
 ***  ***
 **    **
 *      *
-
----
 ```
+---
 
 ## 🗂️ Directory Organization
 
