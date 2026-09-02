@@ -34,56 +34,71 @@ In computer science, **Pattern Printing** is the practice of arranging numbers, 
 
 Visual gallery of all 15 pattern outputs. Click any title to navigate directly to its Java source file.
 
-```text
+
 ## Pattern 01: [Square Pattern](Pattern01.java)
+```
 ****
 ****
 ****
 ****
 
+```
 ## Pattern 02: [Right-Angled Triangle](Pattern02.java)
+```
 *
 **
 ***
 ****
 
+```
 ## Pattern 03: [Number Triangle](Pattern03.java)
+```
 1
 1 2
 1 2 3
 1 2 3 4
 
+```
 ## Pattern 04: [Repeating Number Triangle](Pattern04.java)
 1
 2 2
 3 3 3
 4 4 4 4
 
+```
 ## Pattern 05: [Inverted Right-Angled Triangle](Pattern01.java)
 ****
 ***
 **
 *
 
+```
 ## Pattern 06: [Inverted Number Triangle](Pattern01.java)
+```
 1 2 3 4
 1 2 3
 1 2
 1
 
+```
 ## Pattern 07: [Pyramid](Pattern01.java)
+```
    *
   ***
  *****
 *******
 
+```
 ## Pattern 08: [Inverted Pyramid](Pattern01.java)
+```
 *******
  *****
   ***
    *
 
+```
 ## Pattern 09: [Diamond](Pattern01.java)
+```
    *
   ***
  *****
@@ -93,7 +108,9 @@ Visual gallery of all 15 pattern outputs. Click any title to navigate directly t
   ***
    *
 
+```
 ## Pattern 10: [Half Diamond](Pattern01.java)
+```
 *
 **
 ***
@@ -102,25 +119,33 @@ Visual gallery of all 15 pattern outputs. Click any title to navigate directly t
 **
 *
 
+```
 ## Pattern 11: [Binary Triangle](Pattern01.java)
+```
 1
 0 1
 1 0 1
 0 1 0 1
 
+```
 ## Pattern 12: [Number Crown](Pattern01.java)
+```
 1      1
 12    21
 123  321
 12344321
 
+```
 ## Pattern 13: [Floyd's Triangle](Pattern01.java)
+```
 1
 2 3
 4 5 6
 7 8 9 10
 
+```
 ## Pattern 14: [Hollow Diamond](Pattern01.java)
+```
    *
   * *
  *   *
@@ -129,7 +154,9 @@ Visual gallery of all 15 pattern outputs. Click any title to navigate directly t
   * *
    *
 
+```
 ## Pattern 15: [Butterfly Pattern](Pattern01.java)
+```
 *      *
 **    **
 ***  ***
