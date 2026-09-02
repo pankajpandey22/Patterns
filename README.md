@@ -30,26 +30,115 @@ In computer science, **Pattern Printing** is the practice of arranging numbers, 
 
 ---
 
-## Pattern Reference Table ($n = 4$)
+# ☕ Java Pattern Programs (n = 4)
 
-| Pattern No. | File Name | Visual Preview (n = 4) | Loop Logic & Formula |
-| :--- | :--- | :--- | :--- |
-| **01** | `Pattern01.java` | <pre>****<br>****<br>****<br>****</pre> | **Outer:** `0` to `n-1`<br>**Inner:** `0` to `n-1` (prints `*`) |
-| **02** | `Pattern02.java` | <pre>*<br>**<br>***<br>****</pre> | **Outer:** `i = 0` to `n-1`<br>**Inner:** prints `i + 1` stars |
-| **03** | `Pattern03.java` | <pre>1<br>1 2<br>1 2 3<br>1 2 3 4</pre> | **Inner:** prints numbers `j` from `1` up to `i + 1` |
-| **04** | `Pattern04.java` | <pre>1<br>2 2<br>3 3 3<br>4 4 4 4</pre> | **Inner:** prints current row number `(i + 1)` exactly `(i + 1)` times |
-| **05** | `Pattern05.java` | <pre>****<br>***<br>**<br>*</pre> | **Outer:** `i = 0` to `n-1`<br>**Inner:** prints `n - i` stars |
-| **06** | `Pattern06.java` | <pre>1 2 3 4<br>1 2 3<br>1 2<br>1</pre> | **Inner:** prints numbers `j` from `1` up to `n - i` |
-| **07** | `Pattern07.java` | <pre>&nbsp;&nbsp;&nbsp;*<br>&nbsp;&nbsp;***<br>&nbsp;*****<br>*******</pre> | **Spaces:** `n - i - 1` times<br>**Stars:** `2 * i + 1` times |
-| **08** | `Pattern08.java` | <pre>*******<br>&nbsp;*****<br>&nbsp;&nbsp;***<br>&nbsp;&nbsp;&nbsp;*</pre> | **Spaces:** `i` times<br>**Stars:** `2 * (n - i) - 1` times |
-| **09** | `Pattern09.java` | <pre>&nbsp;&nbsp;&nbsp;*<br>&nbsp;&nbsp;***<br>&nbsp;*****<br>*******<br>*******<br>&nbsp;*****<br>&nbsp;&nbsp;***<br>&nbsp;&nbsp;&nbsp;*</pre> | Sequential combination of **Pattern 07** directly followed by **Pattern 08** |
-| **10** | `Pattern10.java` | <pre>*<br>**<br>***<br>****<br>***<br>**<br>*</pre> | **Total rows:** `2 * n - 1`<br>**Stars:** `i + 1` if `i < n`, else `2 * n - i` |
-| **11** | `Pattern11.java` | <pre>1<br>0 1<br>1 0 1<br>0 1 0 1</pre> | **Parity Check:** if `(i + j) % 2 == 0` print `1`, else print `0` |
-| **12** | `Pattern12.java` | <pre>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<br>12&nbsp;&nbsp;&nbsp;&nbsp;21<br>123&nbsp;&nbsp;321<br>12344321</pre> | **Left:** `1` to `i+1`<br>**Spaces:** `2 * (n - 1 - i)`<br>**Right:** `i+1` down to `1` |
-| **13** | `Pattern13.java` | <pre>1<br>2 3<br>4 5 6<br>7 8 9 10</pre> | Maintain single global variable `int count = 1;`, print and `count++` |
-| **14** | `Pattern14.java` | <pre>********<br>***&nbsp;&nbsp;***<br>**&nbsp;&nbsp;&nbsp;&nbsp;**<br>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*<br>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*<br>**&nbsp;&nbsp;&nbsp;&nbsp;**<br>***&nbsp;&nbsp;***<br>********</pre> | **Top Half:** `n - i` stars, `2 * i` spaces, `n - i` stars.<br>**Bottom Half:** Reverse loop sequence. |
-| **15** | `Pattern15.java` | <pre>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*<br>**&nbsp;&nbsp;&nbsp;&nbsp;**<br>***&nbsp;&nbsp;***<br>********<br>***&nbsp;&nbsp;***<br>**&nbsp;&nbsp;&nbsp;&nbsp;**<br>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*</pre> | **Total rows:** `2 * n - 1`<br>**Stars per wing:** `i + 1` (top) or `2 * n - 1 - i` (bottom)<br>**Spaces (Gap):** `2 * (n - stars)` |
+Visual gallery of all 15 pattern outputs. Click any title to navigate directly to its Java source file.
 
+---
+
+## Pattern 01: Square Pattern
+```text
+****
+****
+****
+****
+
+## Pattern 02: Right-Angled Triangle
+*
+**
+***
+****
+
+Pattern 03: Number Triangle
+1
+1 2
+1 2 3
+1 2 3 4
+
+Pattern 04: Repeating Number Triangle
+1
+2 2
+3 3 3
+4 4 4 4
+
+Pattern 05: Inverted Right-Angled Triangle
+****
+***
+**
+*
+
+Pattern 06: Inverted Number Triangle
+1 2 3 4
+1 2 3
+1 2
+1
+
+Pattern 07: Pyramid
+   *
+  ***
+ *****
+*******
+
+Pattern 08: Inverted Pyramid
+*******
+ *****
+  ***
+   *
+
+Pattern 09: Diamond
+   *
+  ***
+ *****
+*******
+*******
+ *****
+  ***
+   *
+
+Pattern 10: Half Diamond
+*
+**
+***
+****
+***
+**
+*
+
+Pattern 11: Binary Triangle
+1
+0 1
+1 0 1
+0 1 0 1
+
+Pattern 12: Number Crown
+1      1
+12    21
+123  321
+12344321
+
+Pattern 13: Floyd's Triangle
+1
+2 3
+4 5 6
+7 8 9 10
+
+Pattern 14: Hollow Diamond
+   *
+  * *
+ *   *
+*     *
+ *   *
+  * *
+   *
+
+Pattern 15: Butterfly Pattern
+*      *
+**    **
+***  ***
+********
+***  ***
+**    **
+*      *
 ---
 
 ## 🗂️ Directory Organization
